@@ -52,7 +52,7 @@ MoviePoster.propTypes = {
     alt: propTypes.string.isRequired
 }
 
-MovieGenre.prototype = {
+MovieGenre.propTypes = {
     genre: propTypes.string.isRequired
 }
 
